@@ -1,0 +1,5 @@
+mobile/example/orientationtest/BuildConfig.java
+ mobile.example.orientationtest.BuildConfig
+mobile/example/orientationtest/MainActivity.java
+ mobile.example.orientationtest.MainActivity
+ mobile.example.orientationtest.MainActivity$1

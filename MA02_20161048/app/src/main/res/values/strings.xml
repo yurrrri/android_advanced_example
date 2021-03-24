@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Pick</string>
+    <string name="title_activity_main">My Pick</string>
+    <string name="api_key">AIzaSyBZw9uHoxfj_kGteiym6kyVY0AzDmS3AfI</string>
+    <string name="menu_restaurant">맛집</string>
+    <string name="menu_cafe">카페</string>
+    <string name="title_home">홈</string>
+    <string name="title_search">검색</string>
+    <string name="title_map">지도</string>
+    <string name="title_setting">설정</string>
+    <string name="init_lat">37.604094</string>
+    <string name="init_lng">127.042463</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

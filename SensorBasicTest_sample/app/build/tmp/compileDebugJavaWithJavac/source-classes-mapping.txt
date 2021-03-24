@@ -1,0 +1,4 @@
+mobile/example/sensorbasictest/MainActivity.java
+ mobile.example.sensorbasictest.MainActivity
+mobile/example/sensorbasictest/BuildConfig.java
+ mobile.example.sensorbasictest.BuildConfig

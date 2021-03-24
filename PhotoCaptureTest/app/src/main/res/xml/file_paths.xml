@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--파일을 저장할 경로 지정-->
+<paths>
+    <external-path name="my_images"
+        path="Android/data/ddwu.com.mobile.multimedia.photo.photocapturetest/files/Pictures"/>
+</paths>

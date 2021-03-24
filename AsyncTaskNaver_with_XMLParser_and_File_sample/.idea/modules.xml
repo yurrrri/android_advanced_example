@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AsyncTaskNaver_with_XMLParser_and_File_sample.iml" filepath="$PROJECT_DIR$/.idea/modules/AsyncTaskNaver_with_XMLParser_and_File_sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AsyncTaskNaver_with_XMLParser_and_File_sample.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AsyncTaskNaver_with_XMLParser_and_File_sample.app.iml" />
+    </modules>
+  </component>
+</project>

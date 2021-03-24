@@ -1,0 +1,5 @@
+mobile/example/lbstest_completed/BuildConfig.java
+ mobile.example.lbstest_completed.BuildConfig
+mobile/example/lbstest_completed/MainActivity.java
+ mobile.example.lbstest_completed.MainActivity
+ mobile.example.lbstest_completed.MainActivity$1

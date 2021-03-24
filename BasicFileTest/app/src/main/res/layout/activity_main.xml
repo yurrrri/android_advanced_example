@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Test Data"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/btnInWrite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:onClick="onInClick"
+        android:text="내부 쓰기"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etText" />
+
+    <Button
+        android:id="@+id/btnInRead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="onInClick"
+        android:text="내부 읽기"
+        app:layout_constraintStart_toEndOf="@+id/btnInWrite"
+        app:layout_constraintTop_toBottomOf="@+id/etText" />
+
+    <Button
+        android:id="@+id/btnInDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="onInClick"
+        android:text="내부 지우기"
+        app:layout_constraintStart_toEndOf="@+id/btnInRead"
+        app:layout_constraintTop_toBottomOf="@+id/etText" />
+
+    <Button
+        android:id="@+id/btnExtWrite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:onClick="onExtClick"
+        android:text="외부 쓰기"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnInWrite" />
+
+    <Button
+        android:id="@+id/btnExtRead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="onExtClick"
+        android:text="외부 읽기"
+        app:layout_constraintStart_toEndOf="@+id/btnExtWrite"
+        app:layout_constraintTop_toBottomOf="@+id/btnInRead" />
+
+    <Button
+        android:id="@+id/btnExtDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="onExtClick"
+        android:text="외부 지우기"
+        app:layout_constraintStart_toEndOf="@+id/btnExtRead"
+        app:layout_constraintTop_toBottomOf="@+id/btnInDelete" />
+
+    <Button
+        android:id="@+id/btnCacheWrite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:onClick="onCacheClick"
+        android:text="캐시 쓰기"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnExtWrite" />
+
+    <Button
+        android:id="@+id/btnCacheRead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="onCacheClick"
+        android:text="캐시 읽기"
+        app:layout_constraintStart_toEndOf="@+id/btnCacheWrite"
+        app:layout_constraintTop_toBottomOf="@+id/btnExtRead" />
+
+    <Button
+        android:id="@+id/btnCacheDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="onCacheClick"
+        android:text="캐시 지우기"
+        app:layout_constraintStart_toEndOf="@+id/btnCacheRead"
+        app:layout_constraintTop_toBottomOf="@+id/btnExtDelete" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

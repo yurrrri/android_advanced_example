@@ -1,0 +1,14 @@
+1주차 - DBTest01_sample(DB기본조작->기본 Adapter)
+2주차 - DBTest02_sample, MyOnePick(CursorAdapter)
+3주차 - ConnectivityMgrTest(네트워크 환경조사) //AndroidManifest.xml
+DownloadHtml(네트워크를 사용해 url을 받아 소스, 이미지 다운로드) //AndroidManifest.xml, strings.xml
+UploadHttp(OpenAPI->영화진흥위원회 사용) //AndroidManifest.xml
+4주차 - ToyThread(비동기 처리의 간단한 예), 
+	ThreadBasic(Thread클래스 사용->상속, 구현, Handler, Message)
+	ToyAsyncTask(AsyncTask 기본 사용)
+	MultipleAsyncTaskTest_sample(AsyncTask로 네트워크 사용..url주소를 가져오고 이미지 다운받고 
+5주차 - AsyncTaskDownHtml_with_XmlParser(XML Parser로 영화API 사용)
+	AsyncTaskNaver_with_XmlParser(네이버 API 사용)
+6주차 - BasicFileTest(AppData와 File)
+
+//AndroidManifest.xml, strings.xml, JAVA 코드 파일

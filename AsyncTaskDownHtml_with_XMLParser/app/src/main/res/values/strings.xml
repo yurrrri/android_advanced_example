@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AsyncTaskDownHtml</string>
+    <string name="default_target_date">20120101</string>
+    <string name="server_url">https://www.kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.xml?key=3f8026dbde674a8c266c9945563d4fc5&amp;targetDt=</string>
+</resources>
