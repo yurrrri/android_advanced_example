@@ -1,1 +1,1 @@
-# school_android_advanced
+# android_advanced_example
